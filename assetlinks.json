@@ -1,0 +1,25 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "io.vaultbank.android",
+    "sha256_cert_fingerprints":
+    ["AC:1B:6B:84:D4:69:7C:A1:50:6D:16:43:4C:60:FE:B2:C9:38:64:25:0C:03:FF:06:21:A6:2C:56:86:38:8D:62"]
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "web",
+    "site": "https://gist.githubusercontent.com"
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "io.vaultbank.android",
+    "sha256_cert_fingerprints":
+    ["AC:1B:6B:84:D4:69:7C:A1:50:6D:16:43:4C:60:FE:B2:C9:38:64:25:0C:03:FF:06:21:A6:2C:56:86:38:8D:62"]
+  }
+}]
